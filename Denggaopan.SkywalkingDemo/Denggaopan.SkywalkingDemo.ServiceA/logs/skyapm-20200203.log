@@ -1,0 +1,30 @@
+2020-02-03 20:11:22.950 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-02-03 20:11:23.009 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-02-03 20:11:23.010 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-02-03 20:11:23.010 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-02-03 20:11:23.010 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-02-03 20:11:23.011 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-02-03 20:11:23.011 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-02-03 20:11:23.011 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-02-03 20:11:23.060 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-02-03 20:11:23.061 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-02-03 20:11:23.515 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2020-02-03 20:11:33.374 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2020-02-03 20:11:38.078 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[192.168.10.50:11800].
+2020-02-03 20:11:44.815 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.RegisterService : Stopped instrument service RegisterService.
+2020-02-03 20:11:44.815 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.PingService : Stopped instrument service PingService.
+2020-02-03 20:11:44.815 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Stopped instrument service ServiceDiscoveryV5Service.
+2020-02-03 20:11:44.816 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.SegmentReportService : Stopped instrument service SegmentReportService.
+2020-02-03 20:11:44.816 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Service.CLRStatsService : Stopped instrument service CLRStatsService.
+2020-02-03 20:11:44.816 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Stopped instrument service SimpleCountSamplingInterceptor.
+2020-02-03 20:11:44.816 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Stopped instrument service ConnectService.
+2020-02-03 20:11:44.816 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Information] SkyApm.InstrumentStartup : Stopped SkyAPM .NET Core Agent.
+2020-02-03 20:11:48.082 +08:00 [Denggaopan.SkywalkingDemo.ServiceA] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline)
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline)
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()

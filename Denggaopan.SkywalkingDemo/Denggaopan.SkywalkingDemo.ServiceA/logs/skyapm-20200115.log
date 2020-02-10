@@ -1,0 +1,17 @@
+2020-01-15 11:25:12.807 +08:00 [ServiceA] [Information] SkyApm.InstrumentStartup : Initializing ...
+2020-01-15 11:25:12.864 +08:00 [ServiceA] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2020-01-15 11:25:12.864 +08:00 [ServiceA] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2020-01-15 11:25:12.864 +08:00 [ServiceA] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2020-01-15 11:25:12.865 +08:00 [ServiceA] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2020-01-15 11:25:12.865 +08:00 [ServiceA] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2020-01-15 11:25:12.865 +08:00 [ServiceA] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2020-01-15 11:25:12.865 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2020-01-15 11:25:13.035 +08:00 [ServiceA] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2020-01-15 11:25:13.036 +08:00 [ServiceA] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2020-01-15 11:25:13.414 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[192.168.10.50:11800].
+2020-01-15 11:25:27.953 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[192.168.10.50:11800].
+2020-01-15 11:25:27.957 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[192.168.10.50:11800].
+2020-01-15 11:25:42.865 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[192.168.10.50:11800].
+2020-01-15 11:25:42.868 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[192.168.10.50:11800].
+2020-01-15 11:25:57.879 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[192.168.10.50:11800].
+2020-01-15 11:25:57.883 +08:00 [ServiceA] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[192.168.10.50:11800].
